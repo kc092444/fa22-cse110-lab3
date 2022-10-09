@@ -1,1 +1,1 @@
-# CSE110-Lab2
+# Lab 2 - Starter
