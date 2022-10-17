@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+h1 {
+    color: navy;
+    margin-left: 1cm;
+    background-color:hsl(0, 20%, 50%);
+    width: 50vw;
+    padding: right;
+    width:80%;
+  max-width:350px;
+  height:50%;
+  min-width : 250px;
+  } /*for h1*/
+
+h2,
+ h3 {
+    color :#FFFF0FF0;
+    background-color: black;    
+    margin-left: 20mm;
+    width: 2hw;
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: rgb(11, 67, 136);
+    display: inline;
+}
+
+h4 {
+    color :#660634f0;
+    background-color: rgb(77, 133, 9);    
+    margin: top;
+    width: 20rem;
+    padding-top: 1nm;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(126, 8, 8);
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    display: block;
+    position: relative;
+}
+form {
+    width:80%;
+  max-width:350px;
+  height:50%;
+  min-width : 250px;
+  position: static;
+}
+
+
+
+button:active {
+    color: rgb(226, 21, 21);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    flex: auto ;
+    margin: 0 -10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #011c33;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(129, 13, 13, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  @media (max-width: 1250px) {
+    button:hover {
+        color: blue;
+      }
+  }
+
+  
+
+body{
+    font-family: 'Open Sans',serif;
+ }
+
+ #C1{
+    color: rgb(226, 21, 21);
+ }
+
+ *.warning {
+    color: green;
+  }
+
+  p {
+    background-color: yellow;
+  }
+
+  a[href^="h"] {
+    background-color: rgb(4, 105, 205);
+  }
+
+  li li {
+    list-style-type: circle;
+  }
+
+  div > span {
+    background-color: rgb(20, 230, 9);
+  }
+
+  p ~ span {
+    color: red;
+  }
+
+  li:first-of-type + li {
+    color: rgb(19, 74, 205);
+  }
+
+
+ 
